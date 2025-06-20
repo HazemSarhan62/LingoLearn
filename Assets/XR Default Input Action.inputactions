@@ -1,0 +1,62 @@
+{
+    "name": "XR Default Input Action",
+    "maps": [
+        {
+            "name": "XRI LeftHand",
+            "id": "e31d0c93-257e-4a26-8334-a34a516aa957",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2f591fdf-67f9-4a88-a0dc-a9ae21131b2b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98466641-9078-402c-b5af-0a4b29a477aa",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI RightHand",
+            "id": "170dc097-382b-45e0-bc2e-186bf64492ed",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "f29cc94a-328b-4cc5-a432-05990041f0d7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f7db534-9698-4dc7-9fb6-c9beb357ae74",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
